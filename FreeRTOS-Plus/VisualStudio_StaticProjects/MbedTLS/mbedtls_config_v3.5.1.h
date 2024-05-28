@@ -4144,47 +4144,47 @@ void mbedtls_platform_free( void * ptr );
 #if 0
     #ifndef MBEDTLS_SSL_PROTO_TLS1_2
         #ifdef MBEDTLS_KEY_EXCHANGE_RSA_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_RSA_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_DHE_RSA_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_DHE_RSA_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_ECDHE_RSA_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_ECDHE_RSA_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_PSK_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_PSK_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_DHE_PSK_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_DHE_PSK_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_RSA_PSK_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_RSA_PSK_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_ECDHE_PSK_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_ECDHE_PSK_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_ECDH_RSA_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_ECDH_RSA_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_ECDH_ECDSA_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_ECDH_ECDSA_ENABLED */
 
         #ifdef MBEDTLS_KEY_EXCHANGE_ECJPAKE_ENABLED
-            #error This option is undef'd in build_info.h
+            #error This option is undefined in build_info.h
         #endif /* MBEDTLS_KEY_EXCHANGE_ECJPAKE_ENABLED */
     #endif /* MBEDTLS_SSL_PROTO_TLS1_2*/
 #endif /* if 0 */
